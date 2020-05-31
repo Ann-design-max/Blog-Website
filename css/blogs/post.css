@@ -1,0 +1,26 @@
+@import url(../header.css);
+@import url(../footer.css);
+@import url(./body.css);
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-areas: "header header header" "post post post" "card card card" "footer footer footer";
+}
+
+@media (max-width: 750px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

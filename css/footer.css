@@ -1,0 +1,21 @@
+/* Footer */
+.footer {
+  grid-area: footer;
+  background: #ccc;
+  color: #f75;
+  font-size: 0.8rem;
+  width: 100%;
+}
+
+.groups {
+  margin-top: 1rem;
+  display: grid;
+  
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  text-transform: uppercase;
+}
+
+.rights {
+  text-align: center;
+}
