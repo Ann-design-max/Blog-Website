@@ -57,7 +57,7 @@
   margin: 0 auto;
   grid-area: card;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   color: #000;
 }
 
